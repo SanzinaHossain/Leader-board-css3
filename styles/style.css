@@ -148,6 +148,6 @@ main{
         align-items: center;
     }
     .course-info{
-        margin: 0px 20px;
+        margin-left:20px;
     }
 }
