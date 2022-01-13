@@ -143,16 +143,8 @@ main{
         grid-template-columns: repeat(1,1fr);
         padding: 0 20px;
     }
-    .player, .blog{
-        flex-direction: column;
-        align-items: center;
-    }
-    .course{
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-    }
     .player, .blog, .course{
         flex-direction: column;
+        align-items: center;
     }
 }
