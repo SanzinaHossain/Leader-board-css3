@@ -147,4 +147,7 @@ main{
         flex-direction: column;
         align-items: center;
     }
+    .course-info{
+        padding: 0px 10px;
+    }
 }
