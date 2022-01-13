@@ -137,14 +137,20 @@ main{
 @media only screen and (max-width:688px) {
     .container{
         width:100%;
+        padding: 30px 0px;
     }
-    .players, .blogs{
+    .players, .blogs, .courses{
         grid-template-columns: repeat(1,1fr);
+        padding: 0 20px;
     }
-    .courses{
+    .player, .blog{
         flex-direction: column;
-        height: 100%;
-        gap:20px;
+        align-items: center;
+    }
+    .course{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
     }
     .player, .blog, .course{
         flex-direction: column;
